@@ -9,7 +9,9 @@ function accion(){
     else if (input <= 962){
         alert('Tu resolución pertenece a la medida md')
     }
-    else if (input >= 992){
+    else if (input <= 992){
         alert('Tu resolución pertenece a la medida xl')
+    }else if(input >= 993){
+    alert('Tu resolución pertenece a la medida xxl')
     }
 }
